@@ -197,6 +197,16 @@ header .ham-burger.active span:nth-child(2){
 
 
 /*About section*/
+.about{
+
+		height: 100vh;
+		background-image: url('../images/back.png');
+		background-size: cover;
+		padding:15px;
+		-webkit-display: flex;
+		display: flex;
+		position: relative;
+	}
 
 .about{
 	padding:80px 0px;
@@ -245,6 +255,7 @@ header .ham-burger.active span:nth-child(2){
 
 
 /*Service Section*/
+
 .service{
 	padding:80px 0px;
 	background-color: #ff6004;
@@ -347,7 +358,16 @@ header .ham-burger.active span:nth-child(2){
 
 
 /*Classes Section*/
+.classes{
 
+	height: 150vh;
+	background-image: url('../images/back.png');
+	background-size: cover;
+	padding:15px;
+	-webkit-display: flex;
+	display: flex;
+	position: relative;
+}
 .classes{
 	padding:80px 0px 50px;
 	background-color: #ffffff;
@@ -527,6 +547,16 @@ header .ham-burger.active span:nth-child(2){
 
 /*Class Schedule Section*/
 .schedule{
+
+	height: 150vh;
+	background-image: url('../images/back.png');
+	background-size: cover;
+	padding:15px;
+	-webkit-display: flex;
+	display: flex;
+	position: relative;
+}
+.schedule{
 	padding:80px 0px;
 }
 
@@ -624,7 +654,16 @@ header .ham-burger.active span:nth-child(2){
 
 
 /*Price Section*/
+.price-package{
 
+	height: 150vh;
+	background-image: url('../images/back.png');
+	background-size: cover;
+	padding:20px;
+	-webkit-display: flex;
+	display: flex;
+	position: relative;
+}
 .price-package{
 	padding: 80px 0px;
 	background-color: #ffffff;
