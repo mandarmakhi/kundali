@@ -143,10 +143,10 @@ header .ham-burger.active span:nth-child(2){
 
 /*Home section*/
 .home{
-	height: 100vh;
+	height: 75vh;
 	background-image: url('../images/home.png');
 	background-size: cover;
-	padding:15px;
+	padding:20px;
 	-webkit-display: flex;
 	display: flex;
 	position: relative;
@@ -290,7 +290,7 @@ header .ham-burger.active span:nth-child(2){
 
 .service .content .text .btn{
 	padding:8px 30px;
-	background-color: #222222;
+	background-color: #4e4949;
 	color:#ffffff;
 	text-decoration: none;
 	display: inline-block;
