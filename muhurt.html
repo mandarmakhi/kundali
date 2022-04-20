@@ -21,7 +21,7 @@
   
 </head>
 <body>
- 
+ <form action="insert.php" method="POST">
  <!-- Start Header  -->
  <header>
  	 <div class="container">
@@ -70,8 +70,8 @@
         <form>
           <div class="row">
             <div class="col">
-              <label for="inputAddress">संपूर्ण नाव  </label>
-              <input type="text" class="form-control" placeholder="नाव ">
+              <label for="inputAddress" aria-required="true">संपूर्ण नाव  </label>
+              <input type="text" class="form-control" placeholder="नाव " name="user_name" required>
             </div>
             
           </div>
@@ -83,27 +83,33 @@
     
     <div class="form-row">
      
+      <div class="col">
+        <label for="inputAddress">Email  </label>
+        <input type="email" class="form-control" placeholder="email " name="email" required>
+      </div>
       <div class="form-group col-md-2">
         <label for="inputZip">Whatsapp Number</label>
-        <input type="text" class="form-control" id="Whatsapp Number">
+        <input type="text" class="form-control" id="Whatsapp Number" name="mobileno" required>
       </div>
     </div>
     <br>
     <div class="form-group col-md-6">
       <label for="inputState">|| धार्मिक विधी ||</label>
       <select id="inputState" class="form-control">
+<select name="dharmik" required>
 
-        <option selected>| उपनयन मुहूर्त |</option>
-        <option selected>| साखरपुडा मुहूर्त |</option>
-        <option selected>| विवाह लग्न मुहूर्त |</option>
-        <option selected>| वास्तु मुहूर्त |</option>
-        <option selected>| गृह प्रवेश |</option>
-        <option selected>| जावळ |</option>
-        <option selected>| डोहाळे जेवण |</option>
-        <option selected>| भूमिपूजन मुहूर्त |</option>
-        <option selected>| मूर्ती प्राणप्रतिष्ठापना मुहूर्त |</option>
-        <option selected>इतर महूर्त </option>
-        
+<option selected hidden value="">select code</option>
+        <option selected value="| उपनयन मुहूर्त |">| उपनयन मुहूर्त |</option>
+        <option selected value="| साखरपुडा मुहूर्त |">| साखरपुडा मुहूर्त |</option>
+        <option selected value="| विवाह लग्न मुहूर्त |">| विवाह लग्न मुहूर्त |</option>
+        <option selected value="| वास्तु मुहूर्त |">| वास्तु मुहूर्त |</option>
+        <option selected value="| गृह प्रवेश |">| गृह प्रवेश |</option>
+        <option selected value="| जावळ |">| जावळ |</option>
+        <option selected value="| डोहाळे जेवण |">| डोहाळे जेवण |</option>
+        <option selected value="| भूमिपूजन मुहूर्त |">| भूमिपूजन मुहूर्त |</option>
+        <option selected value="| मूर्ती प्राणप्रतिष्ठापना मुहूर्त |">| मूर्ती प्राणप्रतिष्ठापना मुहूर्त |</option>
+        <option selected value="इतर महूर्त">इतर महूर्त </option>
+      </select>
         
         <option>...</option>
       </select>
@@ -116,12 +122,12 @@
         </label>
       </div>
     </div>
-    <button type="submit" class="btn btn-primary">नेक्स्ट </button>
+    <button type="submit" class="btn btn-primary" value="submit">submit </button>
   </form>
   </div>
  <br>
  <br>
-
+</form>
  <!-- Start Contact -->
   <!-- Start Contact -->
   <section class="contact" id="contact">
